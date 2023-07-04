@@ -9,13 +9,13 @@ Para ejecutar el proyecto, sigue estos pasos:
 1. Clona el repositorio en tu máquina local utilizando el siguiente comando:
 
 ```bash
-git clone https://github.com/Aubar48/kitchening
+git clone https://github.com/Aubar48/kitcheningMobileFirst
 ```
 
 2. Navega hasta el directorio del proyecto:
 
 ```bash
-cd kitchening
+cd kitchening-master
 ```
 
 3. Instala las dependencias del proyecto con el siguiente comando:
