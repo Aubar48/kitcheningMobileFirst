@@ -170,6 +170,7 @@
     padding: 8px 20px;
     display: inline-block;
     border-right: 1px solid white;
+    
   }
   .home__footer__nav--menu ul li:last-child {
     margin-bottom: 0;
