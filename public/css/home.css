@@ -1,7 +1,9 @@
 /* HEADER */
+
 .home__header {
   text-align: center;
 }
+
 .home__header--box-logo {
   margin: 15px auto 30px;
   width: 180px;
@@ -12,20 +14,23 @@
   border-radius: 50%;
   border: solid 1px var(--colorGris);
 }
+
 .home__header--bars {
   background-color: var(--colorGris);
   padding: 8px;
   margin: 0 auto 30px;
   display: inline-block;
-  border-radius: 4px;
+  border-radius: 3px;
 }
+
 .home__header__nav--menu ul li {
   background-color: var(--colorGris);
   text-transform: uppercase;
-  margin-bottom: 2px;
+  margin-bottom: 1px;
   padding: 8px 0;
 }
-.home__header__nav--menuul li:last-child {
+
+.home__header__nav--menu ul li:last-child {
   margin-bottom: 0;
 }
 
@@ -33,22 +38,26 @@
 .home__main__section--banner {
   display: none;
 }
+
 .home__main__section--products {
   margin-top: 30px;
 }
 
-.home__header__section__article--box {
+.home__main__section__article--box {
   position: relative;
 }
-.home__header__section__article--image {
+
+.home__main__section__article--image {
   width: 100%;
 }
-.home__header__section__article--sticker {
+
+.home__main__section__article--sticker {
   position: absolute;
   top: 0;
   right: 10px;
 }
-.home__header__section__article--zoom {
+
+.home__main__section__article--zoom {
   position: absolute;
   top: 45%;
   left: 0;
@@ -57,29 +66,33 @@
   padding: 8px 0;
   text-align: center;
 }
-.home__header__section__article--title {
+
+.home__main__section__article--title {
   margin: 20px 0;
   font-weight: 900;
   font-size: 1.2rem;
 }
-.home__header__section__article--more {
+
+.home__main__section__article--more {
   display: inline-block;
   padding: 8px;
   margin: 20px 0;
   background-color: var(--colorGrisOscuro);
 }
+
 /* FOOTER */
+
 .home__footer__nav--menu ul li {
   background-color: var(--colorRojo);
   text-transform: capitalize;
-  margin-bottom: 2px;
+  margin-bottom: 1px;
   padding: 8px 0;
   text-align: center;
 }
-.home__footer__nav--menuul li:last-child {
+
+.home__footer__nav--menu ul li:last-child {
   margin-bottom: 0;
 }
-
 /* header */
 
 @media (min-width: 481px) {
@@ -138,11 +151,10 @@
   .home__main__section__article {
     width: 32%;
   }
-  .home__main__section--article:nth-child(even) {
+  .home__main__section__article:nth-child(even) {
     margin-right: 2%;
   }
-  .home__main__section--article:nth-child(3n) {
+  .home__main__section__article:nth-child(3n) {
     margin-right: 0;
   }
 }
-/*  FOOTER */

@@ -1,9 +1,9 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap");
 :root {
   --colorRojo: #b81e14;
   --colorGris: #92908b;
   --colorGrisOscuro: #444444;
 }
+
 * {
   margin: 0;
   box-sizing: border-box;
@@ -24,7 +24,7 @@ ul {
 body {
   background-image: url("/img/bg-body.png");
   font-family: "Roboto";
-  margin: 0 10px;
+  margin: 0 auto;
   max-width: 1080px;
 }
 @media (min-width: 1180px) {
