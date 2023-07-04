@@ -161,7 +161,6 @@
   /* Contenedor del footer */
   .home__footer__nav--menu {
     background-color: var(--colorRojo);
-    padding: 20px;
     border-radius: 20px 20px 0 0;
     text-align: center;
     padding-top: 50px;
