@@ -48,7 +48,7 @@ $("a").mouseleave(elem => {
 //     $(".home__main").fadeIn()
 // })
 
-$("#btn__active3").click(() => {
+$(".home__header--box-logo").click(() => {
     $(".home__main").is(":visible") ? $(".home__main").fadeOut() : $(".home__main").fadeIn();
 });
 
