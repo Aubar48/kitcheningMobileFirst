@@ -1,11 +1,31 @@
 //title double
 let alertShow = false
 
-if (document.title === "Kitchening") {
+if (document.title === "Home") {
     setInterval(() => {
         document.title =
-            alertShow ? "Home 🥘"
-                : "Kitchening"
+            alertShow ? "Kitchening"
+                : "Home"
+
+        alertShow = !alertShow
+    }, 1000)
+}
+
+if (document.title === "Contact") {
+    setInterval(() => {
+        document.title =
+            alertShow ? "Kitchening"
+                : "Contact"
+
+        alertShow = !alertShow
+    }, 1000)
+}
+
+if (document.title === "404") {
+    setInterval(() => {
+        document.title =
+            alertShow ? "Kitchening"
+                : "404"
 
         alertShow = !alertShow
     }, 1000)
@@ -30,4 +50,11 @@ $("a").mouseleave(elem => {
 
 $("#btn__active3").click(() => {
     $(".home__main").is(":visible") ? $(".home__main").fadeOut() : $(".home__main").fadeIn();
+});
+
+//msj error 404 que se escribe solo
+document.addEventListener("DOMContentLoaded", function () {
+    new TypeIt("#element", {
+        strings: ["ERROR 404, PAGE NOT FOUND!"],
+    }).go();
 });
